@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import Layout from './Layout.js'
 
 const LayoutStyled = styled(Layout)`
-  background-color: #000000;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   justify-content: center;
