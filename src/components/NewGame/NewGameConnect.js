@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 
 import { clearGame } from './GameState.js'
-import setLevel from './Level.js'
+import Level from './Level.js'
 
 import NewGame from './NewGameStyled';
 
@@ -20,7 +20,7 @@ class NewGameConnect extends Component {
   handleLevelSelect(level) {
     clearGame()
 
-    setLevel(level)
+    Level(level)
 
     this.setState({
       redirectToGame: true
