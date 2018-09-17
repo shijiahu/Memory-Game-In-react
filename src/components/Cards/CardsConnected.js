@@ -27,6 +27,7 @@ class CardsConnected extends Component {
     const cards = getLevelCards(selectedLevel)
     const cardStates = []
     const duplicatedCards = shuffle([...cards, ...cards])
+    
 
     for (let i=0; i<duplicatedCards.length; i++) {
       cardStates.push({

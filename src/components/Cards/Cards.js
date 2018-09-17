@@ -6,6 +6,8 @@ import {Card, Header} from '../../components'
 const Cards = ({ cards, className, onClick }) => {
   const chunkedCards = chunk(cards, 10)
 
+  console.log(chunkedCards)
+
   return (
     <div className={className}>
       <Header />

@@ -14,7 +14,7 @@ const getBoardSize = (level) => {
       return 60
 
     default:
-      return 18
+      return 20
   }
 }
 
@@ -23,7 +23,7 @@ const getLevelCards = (level) => {
   const boardSize = getBoardSize(level)
 
   const elementsToDropAmount = shuffledCards.length - boardSize
-
+  //console.log(dropRight(shuffledCards, elementsToDropAmount))
   return dropRight(shuffledCards, elementsToDropAmount)
 }
 
