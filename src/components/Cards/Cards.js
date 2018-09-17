@@ -1,13 +1,14 @@
 import React from 'react';
 import { chunk } from 'lodash'
 
-import {Card} from '../../components'
+import {Card, Header} from '../../components'
 
 const Cards = ({ cards, className, onClick }) => {
   const chunkedCards = chunk(cards, 10)
 
   return (
     <div className={className}>
+      <Header />
 
       <div className="Cards__content">
         {chunkedCards.map((cards, index) =>

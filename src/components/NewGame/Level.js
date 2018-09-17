@@ -4,8 +4,8 @@ import { saveSettings } from './GameState.js'
 
 const getBoardSize = (level) => {
   switch (level) {
-    case 'ease':
-      return 18
+    case 'easy':
+      return 20
     case 'medium':
       return 30
     case 'hard':
