@@ -6,5 +6,7 @@ OR
 
 Run the game locally
 
+
 npm install 
+
 npm start 
